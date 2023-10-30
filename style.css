@@ -1,0 +1,48 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Libre Baskerville', serif; 
+}
+.container{
+    background-color: rgb(127, 127, 128);
+    width:max-content;
+    padding: 20px 10px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 20px black;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+  }
+
+.btn{
+  width: 80px;
+  padding: 17px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #646262;
+  font-size: 20px;
+  font-weight: 600;
+}
+button:hover{
+filter: saturate(100);
+
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 340px;
+  font-size: 35px;
+    margin: 0;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
